@@ -25,7 +25,7 @@ function preload(){
 
 function setup() {
   createCanvas(600,600);
-  bg=createSprite(300,300)
+  bg=createSprite(300,301)
   bg.addImage(bgimage)
   bg.scale=0.9
   bunny=createSprite(40,550,10,10);
